@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000B\u0000o\u0000i\u0000l\u0000e\u0000r\u0000p\u0000l\u0000a\u0000t\u0000e\u0000\r\u0000 \u0000",
   "main": "script.js",
   "scripts": {
-   "watch":"npx tailwindcss -i ./styles.css -o ./css/style.css --watch"
+    "watch": "npx tailwindcss -i ./styles.css -o ./css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/she1da/Boilerplate#readme",
   "devDependencies": {
     "tailwind": "^4.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.16"
   }
 }
